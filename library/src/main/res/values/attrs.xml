@@ -14,10 +14,6 @@
             <enum name="center" value="1"/>
             <enum name="right" value="2"/>
         </attr>
-        <attr name="style" format="enum">
-            <enum name="normal" value="0"/>
-            <enum name="gallery" value="1"/>
-        </attr>
     </declare-styleable>
 
     <declare-styleable name="GalleryBanner">
