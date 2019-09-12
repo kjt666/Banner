@@ -25,6 +25,7 @@ dependencies {
   
 演示
 ------
+![](https://github.com/kjt666/Images/blob/master/banner.gif)
 ```
 <wowo.kjt.library.GalleryBanner
             android:id="@+id/gallery_banner"
