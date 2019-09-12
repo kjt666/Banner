@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="showIndicator" format="boolean" />
+    <attr name="dotLightColor" format="color"/>
+    <attr name="dotDarkColor" format="color"/>
+    <attr name="indicatorBackgroundColor" format="color"/>
+    <declare-styleable name="Banner">
+        <attr name="showIndicator" />
+        <attr name="dotLightColor" />
+        <attr name="dotDarkColor"/>
+        <attr name="indicatorBackgroundColor"/>
+        <attr name="indicator_gravity" format="enum">
+            <enum name="left" value="0"/>
+            <enum name="center" value="1"/>
+            <enum name="right" value="2"/>
+        </attr>
+        <attr name="style" format="enum">
+            <enum name="normal" value="0"/>
+            <enum name="gallery" value="1"/>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="GalleryBanner">
+        <attr name="showIndicator"  />
+        <attr name="dotLightColor" />
+        <attr name="dotDarkColor" />
+        <attr name="indicatorBackgroundColor"/>
+    </declare-styleable>
+</resources>
